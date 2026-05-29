@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Landon Colvig
+N:Colvig;Landon;;;
+ORG:Dayta Analytics
+TITLE:Founder
+TEL;TYPE=CELL,VOICE:+19287153039
+EMAIL;TYPE=WORK:landon@daytanalytics.com
+URL:https://daytanalytics.com
+URL:https://www.linkedin.com/in/landoncolvig/
+URL:https://instagram.com/landoncolvig
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/landoncolvig/
+X-SOCIALPROFILE;TYPE=instagram:https://instagram.com/landoncolvig
+NOTE:Solve problems with AI, not more employees. Freelance data engineer who has consulted for Fortune 100 companies — now building AI systems on top of the data infrastructure that actually runs operations.
+END:VCARD
