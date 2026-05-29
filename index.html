@@ -47,6 +47,13 @@ body{
   padding:max(env(safe-area-inset-top),20px) 20px max(env(safe-area-inset-bottom),24px);
   position:relative;
   overflow-x:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+}
+@media (min-width:760px){
+  body{justify-content:center;padding:48px 32px}
 }
 /* Paper grain */
 body::before{
@@ -63,11 +70,36 @@ body::before{
 .card{
   position:relative;
   z-index:2;
-  max-width:460px;
+  width:100%;
+  max-width:520px;
   margin:0 auto;
   display:flex;
   flex-direction:column;
   gap:28px;
+}
+@media (min-width:760px){
+  .card{
+    border:1px solid var(--ink);
+    padding:48px 56px 40px;
+    background:var(--paper);
+    box-shadow:18px 18px 0 var(--ink);
+    max-width:560px;
+  }
+  /* Editorial corner marks */
+  .card::before,.card::after{
+    content:"";
+    position:absolute;
+    width:14px;height:14px;
+    border:1px solid var(--ink);
+  }
+  .card::before{top:-7px;left:-7px;border-right:none;border-bottom:none}
+  .card::after{bottom:-7px;right:-7px;border-left:none;border-top:none}
+}
+@media (min-width:760px){
+  .brand{padding-bottom:18px}
+  .hero{padding-top:14px}
+  .name{font-size:52px}
+  .tagline{font-size:36px}
 }
 
 /* ─── Top brand bar ─────────────────────────── */
@@ -232,7 +264,7 @@ body::before{
   display:flex;
   flex-direction:column;
   gap:0;
-  border-top:1px solid var(--ink);
+  margin-top:6px;
 }
 .btn{
   display:flex;
