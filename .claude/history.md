@@ -51,13 +51,3 @@ The existing dark-theme contact card (deployed via this repo at `card.daytanalyt
 - Lock screen wallpaper PNG was not regenerated to match the new aesthetic — it still uses the old black-background design with white QR card. Functionally fine (the QR scan still goes to the same URL) but doesn't visually match the new card. Worth regenerating if Landon wants brand consistency on his physical phone wallpaper
 
 ---
-
-## 2026-06-11 20:40 - Session Summary
-Session in landon-card - no detailed summary available
-
----
-
-## 2026-06-11 20:41 - Session Summary
-Session in landon-card - no detailed summary available
-
----
